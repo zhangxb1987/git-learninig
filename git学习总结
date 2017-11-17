@@ -1,0 +1,32 @@
+git 文件的4种状态
+
+Untracked		Unmodified		Modified		Staged
+|				|				|				|
+|-----------------------add-------------------->|
+|				|				|				|
+|				|------edit---->|				|
+|				|				|				|
+|				|				|-----stage---->|
+|<--remove------|				|				|
+|				|				|				|
+|				|<-------------commit-----------|
+|				|				|				|
+
+
+
+
+创建仓库
+1.	git init
+2.	git clone <url>
+
+查看文件状态
+git status
+git status -s
+
+添加内容到下一次提交中
+git add
+即把文件状态:[Untracked，Modified]-->Staged
+
+
+
+
